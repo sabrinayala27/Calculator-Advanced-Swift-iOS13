@@ -1,7 +1,7 @@
 # Calculator-Advanced-Swift-iOS13  
 ## proyect from bootcamp iOS Developer 
 
-###### En este proyecto el objetivo es darle funcionalidades a la Interface que diseñamos en el modulo anterior. A través de este proceso aprenderemos unos conceptos avanzados de swift para que el código sea mas manejable y poder entender la arquitectura que muchos developers aplican, ya que si colaboramos o se vuelve más complejo podamos adaptarnos debido a todas estas herramientas y conceptos . Previamente aprendimos auto layout, las vistas de pila y la configuración de restricciones para crear la interfaz de usuario.
+### En este proyecto el objetivo es darle funcionalidades a la Interface que diseñamos en el modulo anterior. A través de este proceso aprenderemos unos conceptos avanzados de swift para que el código sea mas manejable y poder entender la arquitectura que muchos developers aplican, ya que si colaboramos o se vuelve más complejo podamos adaptarnos debido a todas estas herramientas y conceptos . Previamente aprendimos auto layout, las vistas de pila y la configuración de restricciones para crear la interfaz de usuario.
 
 ------------
 
