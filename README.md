@@ -21,9 +21,9 @@
 
 
 ##### Model 📘
-- aqui entra toda la parte logica del proyecto, que debe pasar si el usuario empieza a tapear numeros mas símbolos, proporciona funciones que realizan operaciones y devuelven resultados en función de la entrada del usuario.
+##### Aquí entra toda la parte lógica del proyecto donde se manejará que debe pasar si el usuario empieza a tapear números más símbolos, proporcionar funciones que realizen operaciones y devolver resultados en función de la entrada del usuario.
 
-- contiene una estructura llamada `CalculatorLogic`. Tiene dos propiedades privadas: `number`, que es un número opcional que se utiliza para realizar cálculos y `intermediateCalculator`, que es una tupla que almacena el primer número que el usuario ingresa y la operación que se realizará con él.
+- Contiene una estructura llamada `CalculatorLogic`. Tiene dos propiedades privadas: `number`, que es un número opcional que se utiliza para realizar cálculos y `intermediateCalculator`, que es una tupla que almacena el primer número que el usuario ingresa y la operación que se realizará con él.
 
 - La función `setNumber` es una función mutante que toma un número como entrada y lo almacena en la propiedad number.
 
@@ -54,7 +54,7 @@ func performTwoNumCalculation(n2: Double) -> Double? {
 
 ##### View 💻
 
-- La interfaz donde aparecerán todos los elementos visuales en el cuál el usuario va a interactuar, en este caso podrá pulsar los botones para darle vida a la calculadora y poder hacer cuentas.
+##### La interfaz donde aparecerán todos los elementos visuales en el cuál el usuario va a interactuar, en este caso podrá pulsar los botones para darle vida a la calculadora y poder hacer cuentas.
 
 [![calculator](https://shots.codepen.io/mjijackson/pen/xOzyGX-1280.jpg?version=1470500473 "calculator")](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodepen.io%2Fmjijackson%2Fpen%2FxOzyGX&psig=AOvVaw1SfszYCJ53DSmIVuQAVzv_&ust=1677949602706000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiR78GfwP0CFQAAAAAdAAAAABAa "calculator")
 ------------
@@ -63,10 +63,12 @@ func performTwoNumCalculation(n2: Double) -> Double? {
 
 ##### Controller ⌨️
 ###### - UIViewController 
-- responde a las interacciones del usuario con la vista
+
+##### responde a las interacciones del usuario con la vista
+
 - La clase contiene dos métodos IBAction, calcButtonPressed y numButtonPressed, que se activan cuando el usuario presiona un botón en la calculadora.
 
--   `calcButtonPressed` Qué debe suceder cuando un botón no numerico es presionado.
+-   `calcButtonPressed` Qué debe suceder cuando un botón no numérico es presionado.
 
 -  `numButtonPressed` Qué debe suceder cuando se ingresa un número en el teclado.
 
